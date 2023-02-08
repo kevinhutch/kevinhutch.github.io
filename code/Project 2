@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic Layout</title>
+    <style>
+      /* CSS styles go here */
+      .header {
+        background-color: lightgray;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .main-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px;
+      }
+
+      .left-side {
+        width: 30%;
+        background-color: lightblue;
+        padding: 20px;
+      }
+
+      .right-side {
+        width: 30%;
+        background-color: lightcoral;
+        padding: 20px;
+      }
+
+      .footer {
+        background-color: lightgray;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header section -->
+    <div class="header">
+      <h1>Header</h1>
+    </div>
+
+    <!-- main section -->
+    <section class="main-section">
+      <!-- left side -->
+      <div class="left-side">
+        <h2>Left Side</h2>
+      </div>
+
+      <!-- right side -->
+      <div class="right-side">
+        <h2>Right Side</h2>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <div class="footer">
+      <p>Footer</p>
+    </div>
+  </body>
+</html>

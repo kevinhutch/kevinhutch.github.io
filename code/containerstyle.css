@@ -1,0 +1,26 @@
+section {
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: space-around; */
+    padding: 0;
+    margin: 0 auto;
+    width: 800px;
+}
+
+section main, section aside{
+    border: solid 2px black;
+    height: 500px;
+}
+
+main {
+    background-color: aqua;
+    width: 500px;
+}
+
+main:hover {
+    background-color: red;
+}
+
+aside {
+    background-color: darkslategrey
+}
